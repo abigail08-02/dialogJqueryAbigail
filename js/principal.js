@@ -1,7 +1,7 @@
 $(function () {
 
     $("#dialogEliminar").dialog({
-        auto0pen: false,
+        autoOpen: false,
         modal: true,
         buttons:{
                  "Acepto": function () {
