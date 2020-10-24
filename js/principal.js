@@ -30,6 +30,8 @@
                 }
       });
 
-      $(".btn")
+      $("#lista-celulares").on("click", ".btn-eliminar", function () {
+        $("#dialogEliminar").dialog("open");
+      })
 
     })
