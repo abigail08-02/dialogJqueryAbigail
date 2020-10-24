@@ -10,8 +10,17 @@
             $("#lista-celulares").append(`
                 <li>
 
-                    ${cell}
-                    <a href="#" class="btn-eliminar">Eliminar</a>
+                    <span class="row">
+                    
+                        <span class="col">
+                        ${cell}
+                        </span>
+
+                        <span class="col">
+                        <a href="#" class="btn-eliminar">Eliminar</a>
+                        </span>
+                        
+                    </span>
 
                 </li>
             `);
